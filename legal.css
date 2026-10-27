@@ -1,0 +1,24 @@
+html.legal-page{height:auto;overflow-y:auto;scroll-padding-top:110px}
+.legal-page body{height:auto;overflow:visible;padding-top:86px;background:#fff}
+.legal-title{background:#152237;color:#fff;text-align:center;padding:45px 24px}
+.legal-title h1{font-size:clamp(2rem,3.2vw,3rem);line-height:1.2;font-weight:500;letter-spacing:-.035em}
+.legal-title p{margin-top:10px;color:#d3dceb;font-size:1rem}
+.legal-content{max-width:1050px;margin:auto;padding:58px 42px 72px;color:#263244;font-size:1.05rem;line-height:1.8;overflow-wrap:anywhere}
+.legal-content p{margin:0 0 20px}
+.legal-content h2{font-size:1.35rem;line-height:1.45;font-weight:700;letter-spacing:0;margin:42px 0 20px}
+.legal-content h3{font-size:1.05rem;line-height:1.6;font-weight:700;letter-spacing:0;margin:24px 0 12px}
+.legal-content ul{margin:0 0 22px;padding-left:24px}
+.legal-content li{padding:2px 0}
+.legal-content a{color:#255778;text-decoration:underline;text-underline-offset:3px}
+.legal-content .legal-intro{font-size:1.2rem}
+.cookie-exclusions{list-style:none;padding-left:0!important}
+.cookie-exclusions li::before{content:'×';color:#e75582;font-size:1.3rem;font-weight:700;margin-right:10px}
+@media(max-width:700px){.legal-page body{padding-top:108px}.legal-page .header{min-height:108px}.legal-title{padding:34px 22px}.legal-content{padding:36px 22px 48px;font-size:1rem}.legal-content h2{font-size:1.2rem;margin-top:34px}.legal-content h3{font-size:1rem}}
+/* Allineamento alla home e fascia titolo più alta del 30% */
+.legal-content{max-width:1680px;margin-left:auto;margin-right:auto;padding-left:clamp(24px,4vw,72px);padding-right:clamp(24px,4vw,72px);text-align:left}
+.legal-title{display:flex;flex-direction:column;align-items:center;justify-content:center;padding:0 24px;min-height:calc(clamp(3.12rem,4.992vw,4.68rem) + 2.145rem + 130px)}
+@media(max-width:700px){.legal-content{padding-left:22px;padding-right:22px}.legal-title{padding:0 22px;min-height:calc(clamp(3.12rem,4.992vw,4.68rem) + 2.145rem + 101.4px)}}
+
+/* Revisione dei testi: paragrafi modificati e note in rosso */
+.legal-content .legal-change,.legal-content .legal-change a,.legal-content .legal-review-note{color:#b4232c}
+.legal-review-note{border-left:3px solid #b4232c;padding:14px 20px;background:#fff5f5;margin-bottom:32px!important}
